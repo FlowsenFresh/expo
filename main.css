@@ -1,0 +1,18 @@
+body {
+  background-color: grey;
+  text-align: center;
+  display: block;
+}
+input {
+  text-align: center;
+}
+button {
+  border-radius: 25px;
+  width: 400px;
+  height: 80px;
+  margin: 30px;
+  font-size: 30px;
+}
+span {
+  font-size: 30px;
+}
