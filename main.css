@@ -25,10 +25,23 @@ span {
 h2 {
   font-size: 30px;
   margin-bottom: 8px;
-  text-decoration: underline;
 }
 
 hr {
   width: 20%;
   border-radius: 10px;
+}
+
+.userInput {
+  text-decoration: underline;
+}
+
+#mvDiv,
+#lfDiv {
+  float: left;
+  text-align: left;
+  margin-top: 1em;
+  display: flex;
+  width: 30%;
+  align-items: center;
 }

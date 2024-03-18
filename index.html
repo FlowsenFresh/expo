@@ -8,15 +8,7 @@
     <title>EXPO CALC</title>
   </head>
   <body>
-    <h2>GT</h2>
-    <input
-      type="text"
-      name="gtCount"
-      maxlength="4"
-      id="gtCount"
-      value="0"
-    />
-    <h2>KT</h2>
+    <h2 class="userInput">KT</h2>
     <input
       type="text"
       name="ktCount"
@@ -24,7 +16,15 @@
       id="ktCount"
       value="0"
     />
-    <h2>Expo-Slots</h2>
+    <h2 class="userInput">GT</h2>
+    <input
+      type="text"
+      name="gtCount"
+      maxlength="4"
+      id="gtCount"
+      value="0"
+    />
+    <h2 class="userInput">Expo-Slots</h2>
     <input
       type="text"
       name="expoCount"
@@ -38,7 +38,18 @@
     ></strong><br />
     <span id="ktOutput">KTS: <strong><span id="ktsText">0</span></span
     ></strong><br />
-    <p id="textOutput"></p>
+    <div id="mvDiv">
+      <h1 class="userInput">MV's</h1>
+      <ul>
+      <li><h2 id="ljMv">715 LJ</h2></li>
+      <li><h2 id="sjMv">286 SJ</h2></li>
+      <li><h2 id="ssMv">48 SS</h2></li>
+      <li><h2 id="spioMv">2858 Spios</h2></li>
+    </ul>
+    </div>
+    <div id="lfDiv">
+      <h1 class="userInput">LF's</h1>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
